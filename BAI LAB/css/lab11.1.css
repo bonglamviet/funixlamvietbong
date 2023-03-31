@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header, section{
+    margin-bottom: 96px;
+}
+body{
+    font-family: "Inter", sans-serif;
+    
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+h2{
+    margin-bottom: 48px;
+    font-size: 36px;
+    letter-spacing: -0.5px;
+}
+
+/* header */
+header{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    margin-top: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.header-text h1{
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    
+}
+.header-image{
+
+}
+.header-img{
+    width: 100%;
+}
+.header-box{
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 14px;
+}
+
+/* section 1 */
+.features-title{
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.features-text{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.section-1{
+    display: grid;
+    row-gap: 40px;
+}
+/* section 2 */
+
+.section-2{
+    display: grid;
+    grid-template-columns: 33.3% 66.7%;
+    column-gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.section2-img{
+width: 100%;
+}
+.testimonial-box h2{
+    font-size: 24px;
+}
+.testimonial-text{
+    font-size: 16px;
+    line-height: 1.7;
+    font-style: italic;
+}
+
+
+/*section 3*/
+.chair-price{
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+.img-section3{
+    width: 100%;
+}
+.section3-gia{
+    font-weight: bold;
+}
+.section3-content{
+display: grid;
+grid-template-rows: auto;
+row-gap: 20px;
+}
+.add-to-cart{
+    display: flex;
+    justify-content: space-between;
+}
+.section-3 h2{
+    font-size: 24px;
+}
+
+/*footer */
+footer{
+    margin-bottom: 48px;
+    font-size: 16px;
+}

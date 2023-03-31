@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: monospace;
+    font-weight: 1.5;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aliceblue;
+}
+.price{
+    font-size: 25px;
+}
+.product{
+    width: 825px;
+    margin:50px auto;
+    border: 3px solid black;
+}
+.product-title{
+    padding: 15px;
+    text-transform: uppercase;
+}
+.shipping{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.details-title{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.details-list{
+    margin-left: 20px;
+}
+.details-list li{
+    margin-bottom: 10px;
+    list-style: square;
+}
+.add-cart{
+    padding: 15px;
+    width: 100%;
+    border-top: 4 solid black;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+}

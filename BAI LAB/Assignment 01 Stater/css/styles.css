@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 80%;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+
+.info-grid {
+    display: flex;
+    margin-left: -1rem;
+    margin-top: -20px;
+    margin-bottom: -30px;
+  }
+  
+  .info-grid-col {   
+   
+    padding: 1rem;
+    line-height: 1.5;
+  }
+  .info-bold{
+    font-weight: bold;
+  }
+
+  #img-avata{ 
+   
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  #info{
+    position: relative;  
+
+  }
+  .section-title{
+    margin-top: 40px;
+    margin-bottom: -2px;
+    text-transform: uppercase;
+  }
+#flex-row{
+
+    padding: -1rem;
+    width: 400px;
+    line-height: 1.5;    
+
+}
+#flex-row-project{
+  
+
+}
+.section-content{
+    
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+/* bỏ dấu gạch chân cho thẻ a */
+a{
+  text-decoration: none;
+}
+/* làm cho dấu chấm của thẻ li nhảy về phía bên trái  */
+li{
+  margin-left: -25px;
+}
+/* The actual timeline (the vertical ruler) */
+

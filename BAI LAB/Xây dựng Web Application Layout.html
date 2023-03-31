@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xay dung web appication</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 24px;
+        display: grid;
+        grid-template-columns: 80px 300px auto 250px;
+        grid-template-rows: 80px auto;
+        }
+        nav{
+            background-color: #212529;
+            grid-row: 1 /3;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .menu{
+            background-color: #7950f2;
+            grid-column: 2/5;
+            padding: 12px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 12px;
+        }
+        .email-view{
+
+        }
+        .email{
+                background-color: #ced4da;
+
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                align-items: center;
+                justify-content: center;
+
+                overflow: scroll;
+                padding-top: 220px;
+                
+              
+        }
+        .aditional{
+                background-color: #ced4da;
+        }
+        .btn{
+                background-color: #6741d9;
+                height: 24px;
+                color: white;
+
+
+        }
+        .trash{
+            background-color: red;
+            margin-left: auto;
+        }
+        .btn-email{
+            width: 80%;
+            height: 50px;
+            border: 0px;
+            background-color: #868e96;
+            flex-shrink: 0;
+            
+         
+        }
+        .btn-email:hover{
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="nav">Nav</nav>
+    <div class="menu">
+        <button class="btn">New</button>
+        <button class="btn">Reply</button>
+        <button class="btn">Forward</button>
+        <button class="btn">Mark unread</button>
+        <button class="btn trash">Trash</button>
+    </div>
+    <div class="email">
+        <button class="btn-email">Email 1</button>
+        <button class="btn-email">Email 2</button>
+        <button class="btn-email">Email 3</button>
+        <button class="btn-email">Email 4</button>
+        <button class="btn-email">Email 5</button>
+        <button class="btn-email">Email 6</button>
+        <button class="btn-email">Email 7</button>
+        <button class="btn-email">Email 8</button>
+        <button class="btn-email">Email 9</button>
+        <button class="btn-email">Email 10</button>
+    </div>
+    <div class="email-view">Enail view</div>    
+    <div class="aditional">Aditional</div>
+</body>
+</html>
